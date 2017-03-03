@@ -35,7 +35,13 @@ public class SaveAndShare {
                 File file = new File(path1 + "/" + activity.getString(R.string.app_name));
                 if (!file.exists())
                     file.mkdirs();
-                filename = new File(file.getAbsolutePath() + "/" + imageName
+
+                String DEFAULT_IMAGE_NAME = imageName;
+                if (imageName == null) {
+                    DEFAULT_IMAGE_NAME = DEFAULT_IMAGE_NAME = String.valueOf(System.currentTimeMillis()) + "_" + "fansfolio";
+                }
+
+                filename = new File(file.getAbsolutePath() + "/" + DEFAULT_IMAGE_NAME
                         + ".jpg");
                 //Log.i("in save()", "after file");
                 FileOutputStream out = new FileOutputStream(filename);
@@ -45,7 +51,7 @@ public class SaveAndShare {
                 out.close();
                 //Log.i("in save()", "after outputstream closed");
                 //File parent = filename.getParentFile();
-                ContentValues image = getImageContent(filename, imageName, activity);
+                ContentValues image = getImageContent(filename, DEFAULT_IMAGE_NAME, activity);
                 Uri result = activity.getContentResolver().insert(
                         MediaStore.Images.Media.EXTERNAL_CONTENT_URI, image);
 
@@ -54,7 +60,7 @@ public class SaveAndShare {
                 if (shareMessage == null) {
                     SHARE_MESSAGE = "Image is saved in " + filename;
                 }
-                if (SHARE_TITLE == null) {
+                if (shareTitle == null) {
                     SHARE_TITLE = "Awesome!";
                 }
                 // open share options
