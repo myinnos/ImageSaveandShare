@@ -38,7 +38,7 @@ public class SaveAndShare {
 
                 String DEFAULT_IMAGE_NAME = imageName;
                 if (imageName == null) {
-                    DEFAULT_IMAGE_NAME = DEFAULT_IMAGE_NAME = String.valueOf(System.currentTimeMillis()) + "_" + "fansfolio";
+                    DEFAULT_IMAGE_NAME = String.valueOf(System.currentTimeMillis()) + "_" + "fansfolio";
                 }
 
                 filename = new File(file.getAbsolutePath() + "/" + DEFAULT_IMAGE_NAME
