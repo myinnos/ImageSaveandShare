@@ -8,31 +8,30 @@ Library to save image locally and shows options to open and share !
 #### Kindly use the following links to use this library:
 
 In build.gradle (Project)
-
-	allprojects {
-		repositories {
+```java
+allprojects {
+  repositories {
 			...
-			maven { url "https://jitpack.io" }
-		}
+		maven { url "https://jitpack.io" }
 	}
-	
+}
+```
 And then in the other gradle file(may be your app gradle or your own module library gradle, but never add in both of them to avoid conflict.)
-	
-	 dependencies {
-	        compile 'com.github.myinnos:ImageSaveandShare:1.0.1'
-	        }
-
+```java
+dependencies {
+	compile 'com.github.myinnos:ImageSaveandShare:1.0.1'
+}
+```
 How to use
 -----
 Implementing save and share function : [#Example](https://github.com/myinnos/ImageSaveandShare/blob/master/app/src/main/java/in/myinnos/savebitmapandshare/MainActivity.java "Example")
-```
- SaveAndShare.save(this,
-                image, // bitmap image
-                null, // name for image
-                null, // title for bottom popup 
-                null // message for bottom popup
-        );
-
+```java
+SaveAndShare.save(this,
+               image, // bitmap image
+               null, // name for image
+               null, // title for bottom popup 
+               null // message for bottom popup
+       );
 ```
 ##### Any Queries? or Feedback, please let me know by opening a [new issue](https://github.com/myinnos/ImageSaveandShare/issues/new)!
 
