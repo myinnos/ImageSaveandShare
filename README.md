@@ -3,7 +3,7 @@ Library to save image locally and shows options to open and share !
 
  ![ImageSaveandShare - Example1](https://raw.githubusercontent.com/myinnos/ImageSaveandShare/master/gif/demo-gif.gif)
 
-#### Download Demo APK from [HERE](https://github.com/myinnos/ImageSaveandShare/blob/master/apk/SaveBitmapAndShare-Demo.apk "APK")
+#### Download Demo APK from [HERE](https://github.com/myinnos/ImageSaveandShare/raw/master/apk/SaveBitmapAndShare-Demo.apk "APK")
   
 #### Kindly use the following links to use this library:
 
