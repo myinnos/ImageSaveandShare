@@ -138,13 +138,12 @@ public class SaveAndShare {
         }
     }
 
-    public static boolean checkPermissionForExternalStorage(Activity activity) {
-        int result = ContextCompat.checkSelfPermission(activity, Manifest.permission.READ_EXTERNAL_STORAGE);
-        if (result == PackageManager.PERMISSION_GRANTED) {
-            return true;
-        } else {
+    public static boolean checkPermissionForExternalStorage(Activity activity){
+        if(ActivityCompat.checkSelfPermission((Activity) activity, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                != PackageManager.PERMISSION_GRANTED) {
             return false;
+        }else {
+            return true;
         }
     }
-
 }
