@@ -2,139 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\10\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/babyonboard/AndroidStudioProjects/ImageSaveandShare/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_3ca5678366fab9a7fa44f20866b1890f5cddf22c.jar" />
+        sha1="0979dfac031c46ac96969ad8aba18058beebbb69">
+        <dex dex="/Users/babyonboard/AndroidStudioProjects/ImageSaveandShare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3c3fc5e4f28ec8fa84adb53527165cbe8d8e2573/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\10\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/babyonboard/AndroidStudioProjects/ImageSaveandShare/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_9968d87eacf26472db25b1741ba14b250decbc3c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.2.0_3b4188b7ca6f593088788d537891addef3c6778d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.2.0_5d1888206298c85403f0ce7946d7c25f33a26c96.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.2.0_29ebdb63e7ec25c8353b2839400d37fa3783d1f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_77f201e698d188b323d8af6bbefef4f80d0d569d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.2.0_092a05d9fcff919a0149410cd1113b58e9031240.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.2.0_ebabb9a33f9c8060fdea1d34b34570f2df72015d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_fe8094f7d6f165b2cec241b2aa94acd989fb8d45.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.2.0_c36f7991c95cf18cdf8aeec40fa5afd23c8355f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.github.jitpack\savebitmapandsharelib\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d6cba7d9fc5f4cc5a42f16a0d73935c8e6c2c976">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.github.jitpack-savebitmapandsharelib-unspecified_3887aab838437d18eee4ad455786f9e4cf6716de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.2.0_daca03a135e9bbda1b6960eff24c13057210d926.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e51c2f662bb72419632af5192553c37e33890a99">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.2.0_d67194a2325231d55b848b17228e4dabce531d15.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.2.0_f6ce242c4b98c77ab7b2c0ceac3ea0e41fbdcf80.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
-        <dex dex="E:\bitbucket\SaveBitmapAndShare\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.2.0_533af41df62e49586fba209dc106cda22693af02.jar" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/babyonboard/AndroidStudioProjects/ImageSaveandShare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f2b3c852f76ec790f11cab62c3fe1b6868e0ce1c/classes.dex" />
     </item>
 
 </items>

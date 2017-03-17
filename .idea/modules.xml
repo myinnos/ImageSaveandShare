@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SaveBitmapAndShare.iml" filepath="$PROJECT_DIR$/SaveBitmapAndShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageSaveandShare.iml" filepath="$PROJECT_DIR$/ImageSaveandShare.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/savebitmapandsharelib/savebitmapandsharelib.iml" filepath="$PROJECT_DIR$/savebitmapandsharelib/savebitmapandsharelib.iml" />
     </modules>
