@@ -19,10 +19,10 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageView = (ImageView) findViewById(R.id.imageView);
+        imageView = findViewById(R.id.imageView);
 
-        Picasso.with(this)
-                .load("http://images.techtimes.com/data/images/full/86240/android-trouble.jpg")
+        Picasso.get()
+                .load("https://www.tollywood.net/wp-content/uploads/2018/08/Surprise-Trisha-wish-come-true.jpg")
                 .into(imageView);
     }
 
@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
         // implementing save and share function
         SaveAndShare.save(this,
                 image, // bitmap image
-                String.valueOf(System.currentTimeMillis()) + "_" + "fansfolio", // name for image
+                System.currentTimeMillis() + "_" + "fansfolio", // name for image
                 "Awesome!" // title for bottom popup
                 , null // message for bottom popup
         );
