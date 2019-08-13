@@ -19,7 +19,11 @@ allprojects {
 And then in the other gradle file(may be your app gradle or your own module library gradle, but never add in both of them to avoid conflict.)
 ```java
 dependencies {
-	implementation 'com.github.myinnos:ImageSaveandShare:1.0.3'
+    // AppCompat version
+        implementation 'com.github.myinnos:ImageSaveandShare:1.0.3'
+	or
+    // AndroidX version
+        implementation 'com.github.myinnos:ImageSaveandShare:1.0.4'
 }
 ```
 How to use
@@ -41,6 +45,7 @@ SaveAndShare.save(this,
 * :email: e-mail: contact@myinnos.in
 * :mag_right: LinkedIn: [PrabhakarThota](https://www.linkedin.com/in/prabhakarthota "Prabhakar Thota on LinkedIn")
 * :thumbsup: Twitter: [@myinnos](https://twitter.com/myinnos "Prabhakar Thota on twitter")   
+* :camera: Instagram: [@prabhakar_t_](https://www.instagram.com/prabhakar_t_/ "Prabhakar Thota on Instagram")   
 
 License
 -------
